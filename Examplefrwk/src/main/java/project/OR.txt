@@ -1,0 +1,246 @@
+# Login Page Objects
+txtbx_Usuario=//*[@id="username"]
+txtbx_Senha=//*[@id="password"]
+btn_Entrar=/html/body/div/md-content/div/form/md-card/section/button[1]/span
+msg_LoginInvalido=/html/body/md-toast/div/span
+
+# Home Page Objects
+icon_Menu=/html/body/md-content/div/md-toolbar/div/section/button/md-icon
+icon_Aplicacoes=//md-content/md-content/div/div/md-sidenav/md-content/md-list/md-list-item[contains(.,'Aplicações')]
+icon_Topico=//md-content/md-content/div/div/md-sidenav/md-content/md-list/md-list-item[contains(.,'Tópico')]
+icon_Idioma=//md-content/md-content/div/div/md-sidenav/md-content/md-list/md-list-item[contains(.,'Idioma')]
+icon_FilaMensagens=//md-content/md-content/div/div/md-sidenav/md-content/md-list/md-list-item[contains(.,'Fila de Mensagens')]
+icon_TemplateMensagens=//md-content/md-content/div/div/md-sidenav/md-content/md-list/md-list-item[contains(.,'Template de Mensagens')]
+icon_AprovacoesPendentes=//md-content/md-content/div/div/md-sidenav/md-content/md-list/md-list-item[contains(.,'Aprovações')]
+icon_ConsultaMensagens=//md-content/md-content/div/div/md-sidenav/md-content/md-list/md-list-item[contains(.,'Consulta de Mensagens')]
+icon_ConsultaUsuarios=//md-content/md-content/div/div/md-sidenav/md-content/md-list/md-list-item[contains(.,'Consulta de Usuários')]
+icon_EnviarMensagemPush=//md-content/md-content/div/div/md-sidenav/md-content/md-list/md-list-item[contains(.,'Enviar Mensagem PUSH')]
+icon_DownloadLog=//md-content/md-content/div/div/md-sidenav/md-content/md-list/md-list-item[contains(.,'Download Log')]
+icon_AlterarSenha=//md-content/md-content/div/div/md-sidenav/md-content/md-list/md-list-item[contains(.,'Alterar Senha')]
+icon_Usuarios=//md-content/md-content/div/div/md-sidenav/md-content/md-list/md-list-item[contains(.,'Usuários')]
+icon_Sair=//md-content/md-content/div/div/md-sidenav/md-content/md-list/md-list-item[contains(.,'Sair')]
+lbl_grdQtdeRegistros=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-pagination/div[2]/div
+
+# Aplicacoes Page Objects
+txtbx_NomeApp=//*[@id="name"]
+chbx_HabilitadoApp=//*[@id="enabled"]
+txtbx_ChaveServidor=//*[@id="senderId"]
+txtbx_CertificadoAPN=.//input[@type='file']
+txtbx_SenhaCertificado=//*[@id="appleCertificatePassword"]
+txtbx_PacoteApple=//*[@id="applePackageBundleID"]
+chbx_CertificadoProducao=//*[@id="isProdutionAppleCertificate"]
+btn_LimparApp=//*[@id="content"]/div/form/md-content/div/md-card[1]/section/button[1]
+btn_BuscarApp=//*[@id="content"]/div/form/md-content/div/md-card[1]/section/button[2]
+btn_SalvarApp=//*[@id="content"]/div/form/md-content/div/md-card[1]/section/button[3]
+btn_EditarApp=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr/td[6]/div/button[1]/md-icon
+btn_HistoricoApp=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr/td[6]/div/button[2]/md-icon
+btn_HistoricoApp2=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr/td[6]/div/button[1]
+grd_Aplicacoes=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table
+colgrd_NomeApp=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[2]
+colgrd_HabilitadoApp=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[3]
+colgrd_GoogleFirebase=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[4]
+colgrd_PacoteApple=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[5]
+lst_grdApplicacoes=colgrd_NomeApp;colgrd_HabilitadoApp;colgrd_GoogleFirebase
+lst_telaApplicacoes=txtbx_NomeApp;chbx_HabilitadoApp;txtbx_ChaveServidor
+msg_AppSubmetida=/html/body/md-toast/div/span
+grd_HistoricoApp=/html/body/div[2]/md-dialog/md-toolbar/div
+lst_camposApp=txtbx_NomeApp;chbx_HabilitadoApp;txtbx_ChaveServidor;txtbx_CertificadoAPN;txtbx_SenhaCertificado;txtbx_PacoteApple;chbx_CertificadoProducao
+
+# Topico Page Objects
+select_AplicacaoTopico=//*[@id="idApplication"]
+select_AplicacaoValueTopico=//md-select/md-select-value/span[1]
+chbx_HabilitadoTopico=//*[@id="enabled"]
+txtbx_DescricaoTopico=//*[@id="description"]
+txtbx_NomeTopico=//*[@id="name"]
+btn_LimparTopico=//*[@id="content"]/div/form/md-content/div/md-card[1]/section/button[1]
+btn_BuscarTopico=//*[@id="content"]/div/form/md-content/div/md-card[1]/section/button[2]
+btn_SalvarTopico=//*[@id="content"]/div/form/md-content/div/md-card[1]/section/button[3]
+btn_EditarTopico=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr/td[5]/div/button[1]/md-icon
+btn_HistoricoTopico=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr/td[5]/div/button[2]/md-icon
+btn_HistoricoTopico2=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr/td[5]/div/button[1]
+grd_Topico=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table
+colgrd_AplicacaoTopico=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[1]
+colgrd_NomeTopico=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[2]
+colgrd_DescricaoTopico=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[3]
+colgrd_HabilitadoTopico=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[4]
+lst_grdTopico=colgrd_AplicacaoTopico;colgrd_NomeTopico;colgrd_DescricaoTopico;colgrd_HabilitadoTopico
+lst_telaTopico=select_AplicacaoValueTopico;txtbx_NomeTopico;txtbx_DescricaoTopico;chbx_HabilitadoTopico
+msg_TopicoSubmetido=/html/body/md-toast/div/span
+grd_HistoricoTopico=/html/body/div[3]/md-dialog/md-toolbar/div
+lst_camposTopico=select_AplicacaoTopico;select_AplicacaoValueTopico;chbx_HabilitadoTopico;txtbx_DescricaoTopico;txtbx_NomeTopico
+
+# Idiomas Page Objects
+txtbx_NomeIdioma=//*[@id="name"]
+txtbx_AbreviacaoIdioma=//*[@id="abbreviation"]
+chbx_HabilitadoIdioma=//*[@id="enabled"]
+btn_LimparIdioma=//*[@id="content"]/div/form/md-content/div/md-card[1]/section/button[1]
+btn_BuscarIdioma=//*[@id="content"]/div/form/md-content/div/md-card[1]/section/button[2]
+btn_SalvarIdioma=//*[@id="content"]/div/form/md-content/div/md-card[1]/section/button[3]
+btn_EditarIdioma=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr/td[5]/div/button[1]/md-icon
+btn_HistoricoIdioma=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr/td[5]/div/button[2]/md-icon
+btn_HistoricoIdioma2=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr/td[5]/div/button[1]
+grd_Idiomas=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table
+colgrd_NomeIdioma=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[2]
+colgrd_AbreviacaoIdioma=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[3]
+colgrd_HabilitadoIdioma=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[4]
+lst_grdIdiomas=colgrd_NomeIdioma;colgrd_AbreviacaoIdioma;colgrd_HabilitadoIdioma
+lst_telaIdiomas=txtbx_NomeIdioma;txtbx_AbreviacaoIdioma;chbx_HabilitadoIdioma
+msg_IdiomaSubmetido=/html/body/md-toast/div/span
+grd_HistoricoIdiomas=/html/body/div[2]/md-dialog/md-toolbar/div
+lst_camposIdioma=txtbx_NomeIdioma;txtbx_AbreviacaoIdioma;chbx_HabilitadoIdioma
+
+# Fila de Mensagens Page Objects
+select_TipoConexao=//*[@id="opcaoConexao"]
+txtbx_FabricaConexao=//*[@id="connectionFactory"]
+txtbx_FilaEnvio=//*[@id="sendQueue"]
+txtbx_FilaRetorno=//*[@id="callbackQueue"]
+txtbx_FilaDLQ=//*[@id="dqlQueue"]
+txtbx_ServidorFila=//*[@id="server"]
+txtbx_PortaFila=//*[@id="listener"]
+txtbx_GerenciadorFila=//*[@id="queueManager"]
+txtbx_CanalFila=//*[@id="callbackQueue"]
+txtbx_UsuarioFila=//*[@id="mqUser"]
+txtbx_SenhaFila=//*[@id="mqPassword"]
+btn_HistoricoFilaMsg=//*[@id="content"]/div/form/md-content/div/md-card/section/button[1]
+btn_SalvarFilaMsg=//*[@id="content"]/div/form/md-content/div/md-card/section/button[2]
+msg_FilaSubmetida=/html/body/md-toast/div/span
+grd_HistoricoFilaMsg=/html/body/div[3]/md-dialog/md-toolbar/div
+
+# Aprovacoes Pendentes Page Objects
+lst_AprovacoesPendentes=//*[@id="tableApprovals"]/tbody/tr
+chbx_SomenteMeusItens=//*[@id="enabled"]
+
+# Aprovacoes Page Objects
+lst_Aprovacoes=//*[@id="tableApprovals"]/tbody/tr
+btn_AprovarItem=//*[@id="formForgotPassword"]/md-dialog-actions/button[1]
+btn_ReprovarItem=//*[@id="formForgotPassword"]/md-dialog-actions/button[2]
+btn_ConfirmarAprovReprov=//*[@id="modalApproval"]/md-bottom-sheet/div[2]/md-list/md-list-item[1]/div/button
+btn_CancelarConfirmacaoAprovReprov=//*[@id="modalApproval"]/md-bottom-sheet/div[2]/md-list/md-list-item[2]/div/button
+btn_FecharTelaAprovacoesPendentes=//*[@id="formForgotPassword"]/md-toolbar/div/button
+grd_TelaAnaliseAprovacao=//*[@id="modalApproval"]
+msg_AprovacoesPendentes=/html/body/md-toast/div/span
+
+# Template de Mensagens Page Objects
+txtbx_NomeTemplate=//*[@id="name"]
+chbx_HabilitadoTemplate=//*[@id="enabled"]
+txtbx_Template=//*[@id="message0"]
+btn_LimparTemplate=//*[@id="content"]/div/form/md-content/div/md-card[1]/section/button[1]
+btn_BuscarTemplate=//*[@id="content"]/div/form/md-content/div/md-card[1]/section/button[2]
+btn_SalvarTemplate=//*[@id="content"]/div/form/md-content/div/md-card[1]/section/button[3]
+btn_EditarTemplate=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr/td[4]/div/button[1]/md-icon
+btn_HistoricoTemplate=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr/td[4]/div/button[2]/md-icon
+btn_HistoricoTemplate2=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr/td[4]/div/button[1]
+grd_Template=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table
+colgrd_NomeTemplate=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[2]
+colgrd_HabilitadoTemplate=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[3]
+lst_grdTemplate=colgrd_NomeTemplate;colgrd_HabilitadoTemplate
+lst_telaTemplate=txtbx_NomeTemplate;chbx_HabilitadoTemplate
+msg_TemplateSubmetido=/html/body/md-toast/div/span
+grd_HistoricoTemplate=/html/body/div[2]/md-dialog/md-toolbar/div
+lst_camposTemplate=txtbx_NomeTemplate;chbx_HabilitadoTemplate;txtbx_Template
+
+# Consulta de Mensagens Page Objects
+txtbx_DataConsultaMsg=//*[@id="idDate"]/div/input
+select_AplicacaoConsultaMsg=//*[@id="idApplication"]
+txtbx_CPFConsultaMsg=//*[@id="cpf"]
+select_StatusConsultaMsg=//*[@id="idStatus"]
+txtbx_TokenConsultaMsg=//*[@id="token"]
+select_SOConsultaMsg=//*[@id="idSistOperacional"]
+txtbx_ClienteKeyConsultaMsg=//*[@id="clientkey"]
+btn_LimparConsultaMsg=//*[@id="content"]/div/form/md-content/div/md-card[1]/section/button[1]
+btn_BuscarConsultaMsg=//*[@id="content"]/div/form/md-content/div/md-card[1]/section/button[2]
+btn_HistoricoConsultarMsg=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[7]/div/button
+grd_ConsultaMsg=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table
+colgrd_AplicacoConsultaMsg=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[1]
+colgrd_TokenConsultaMsg=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[2]
+colgrd_CPFConsultaMsg=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[3]
+colgrd_SOConsultaMsg=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[4]
+colgrd_DataProcesConsultaMsg=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[5]
+colgrd_StatusConsultaMsg=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[6]
+lst_grd_ConsultaMsg=colgrd_AplicacoConsultaMsg;colgrd_TokenConsultaMsg;colgrd_CPFConsultaMsg;colgrd_SOConsultaMsg;colgrd_DataProcesConsultaMsg;colgrd_StatusConsultaMsg
+lst_telaConsultaMsg=select_AplicacaoConsultaMsg;txtbx_TokenConsultaMsg;txtbx_CPFConsultaMsg;select_SOConsultaMsg;txtbx_DataConsultaMsg;select_StatusConsultaMsg
+grd_HistoricoConsultaMsg=/html/body/div[2]/md-dialog/md-toolbar/div
+lst_camposConsultaMsg=txtbx_DataConsultaMsg;select_AplicacaoConsultaMsg;txtbx_CPFConsultaMsg;select_StatusConsultaMsg;txtbx_TokenConsultaMsg;select_SOConsultaMsg;txtbx_ClienteKeyConsultaMsg
+
+# Consulta de Usuarios Page Objects
+select_AplicacaoConsultaUsu=//*[@id="idApplication"]
+txtbx_CPFConsultaUsu=//*[@id="cpf"]
+txtbx_TokenConsultaUsu=//*[@id="token"]
+select_SOConsultaUsu=//*[@id="idSistOperacional"]
+btn_LimparConsultaUsu=//*[@id="content"]/div/form/md-content/div/md-card[1]/section/button[1]
+btn_BuscarConsultaUsu=//*[@id="content"]/div/form/md-content/div/md-card[1]/section/button[2]
+grd_ConsultaMsg=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table
+colgrd_CPFConsultaUsu=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[1]
+colgrd_TokenConsultaUsu=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[2]
+colgrd_IMEIConsultaUsu=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[3]
+colgrd_SOConsultaUsu=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[4]
+colgrd_DataConsultaUsu=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[5]
+colgrd_StatusConsultaUsu=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[6]
+lst_grd_ConsultaUsu=colgrd_CPFConsultaUsu;colgrd_TokenConsultaUsu;colgrd_SOConsultaUsu
+lst_telaConsultaUsu=txtbx_CPFConsultaUsu;txtbx_TokenConsultaUsu;select_SOConsultaUsu
+grd_HistoricoConsultaUsu=/html/body/div[2]/md-dialog/md-toolbar/div
+lst_camposConsultaUsu=select_AplicacaoConsultaUsu;txtbx_CPFConsultaUsu;txtbx_TokenConsultaUsu;select_SOConsultaUsu
+
+# Enviar Mensagem PUSH Page Objects
+select_AplicacaoEnviarMsg=//*[@id="idApplication"]
+txtbx_TituloEnviarMsg=//*[@id="messageTitle"]
+txtbx_IdNotifiEnviarMsg=//*[@id="myNotification"]
+txtbx_MensagemEnviarMsg=//*[@id="idMessage"]
+rdo_CPFEnviarMsg=//*[@id="idTypes"]/md-radio-button[1]
+rdo_DispositivoEnviarMsg=//*[@id="idTypes"]/md-radio-button[2]
+rdo_TopicoEnviarMsg=//*[@id="idTypes"]/md-radio-button[3]
+txtbx_CPFEnviarMsg=//*[@id="cpf"]
+select_SOEnviarMsg=//*[@id="idSistOperacional"]
+txtbx_TokenEnviarMsg=//*[@id="token"]
+txtbx_CPFDispositivoEnviarMsg=//*[@id="cpfByDevice"]
+txtbx_ImeiEnviarMsg=//*[@id="imei"]
+select_TopicoEnviarMsg=//*[@id="idTopic"]
+btn_ParametrosEnviarMsg=//*[@id="content"]/div/form/md-content/div/md-card/md-card-content/section/button
+btn_EnviarMsg=//*[@id="content"]/div/form/md-content/div/md-card/section/button
+txtbx_NomeParamEnviarMsg=//*[@id="nameParameter"]
+txtbx_ValorParamEnviarMsg=//*[@id="valueParameter"]
+btn_ExcluirParamEnviarMsg=//*[@id="content"]/div/form/md-content/div/md-card/md-card-content/div[8]/md-input-container[3]/button
+msg_EnviarMsg=/html/body/md-toast/div/span
+
+# Download Log Page Objects
+chbx_TodosDownloadLog=//*[@id="content"]/div/form/md-content/div/md-card/md-card-content/md-list/md-list-item/div/md-checkbox
+lst_chbxDownload=//*[@id="content"]/div/form/md-content/div/md-card/md-card-content/md-content/md-list/md-list-item/div/md-checkbox
+btn_LimparDownloadLog=//*[@id="content"]/div/form/md-content/div/md-card/md-card-content/section/button[1]
+btn_DownloadLog=//*[@id="content"]/div/form/md-content/div/md-card/md-card-content/section/button[2]
+itemLst_download=//*[@id='content']/div/form/md-content/div/md-card/md-card-content/md-content/md-list/md-list-item
+
+# Alterar Senha Page Objects
+txtbx_SenhaAlterarSenha=//*[@id="password"]
+txtbx_NovaSenhaAlterarSenha=//*[@id="newPassword"]
+txtbx_ConfirmarAlterarSenha=//*[@id="newPasswordConfirm"]
+btn_AlterarSenha=//*[@id="content"]/div/md-content/form/md-card/section/button
+msg_EnviarMsg=/html/body/md-toast/div/span
+msg_SenhaInvalidaAlterarSenha=//*[@id="content"]/div/md-content/form/md-card/md-card-content/md-input-container[2]/div[2]/div
+msg_ConfirInvalidaAlterarSenha=//*[@id="content"]/div/md-content/form/md-card/md-card-content/md-input-container[3]/div[2]/div
+
+# Usuarios Page Objects
+txtbx_NomeUsuario=//*[@id="name"]
+txtbx_EmailUsuario=//*[@id="email"]
+txtbx_TelefoneUsuario=//*[@id="extension"]
+select_PerfilUsuario=//*[@id="profile"]
+txtbx_GestorUsuario=//*[@id="fl-input-3"]
+css_SugestaoPerfilUsuario=/html/body/md-virtual-repeat-container/div/div[2]
+chbx_HabilitadoUsuario=//*[@id="enabled"]
+btn_LimparUsuario=//*[@id="content"]/div/form/md-content/div/md-card[1]/section/button[1]
+btn_BuscarUsuario=//*[@id="content"]/div/form/md-content/div/md-card[1]/section/button[2]
+btn_SalvarUsuario=//*[@id="content"]/div/form/md-content/div/md-card[1]/section/button[3]
+btn_EditarUsuario=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[6]/div/button/md-icon
+grd_Usuarios=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table
+colgrd_NomeUsuario=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[1]
+colgrd_EmailUsuario=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[2]
+colgrd_TelefoneUsuario=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[3]
+colgrd_PerfilUsuario=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[4]
+colgrd_HabilitadoUsuario=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-container/table/tbody/tr[1]/td[5]
+lst_grdUsuarios=colgrd_NomeUsuario;colgrd_EmailUsuario;colgrd_TelefoneUsuario;colgrd_PerfilUsuario;colgrd_HabilitadoUsuario
+lst_telaUsuarios=txtbx_NomeUsuario;txtbx_EmailUsuario;txtbx_TelefoneUsuario;select_PerfilUsuario;chbx_HabilitadoUsuario
+msg_UsuarioCadastrado=/html/body/md-toast/div/span
+lst_camposUsuario=txtbx_NomeUsuario;txtbx_EmailUsuario;txtbx_TelefoneUsuario;select_PerfilUsuario;txtbx_GestorUsuario;chbx_HabilitadoUsuario
+
+# Sair Page Objects
+btn_Nao=/html/body/div[2]/md-dialog/md-dialog-actions/button[1]
+btn_Sim=/html/body/div[2]/md-dialog/md-dialog-actions/button[2]

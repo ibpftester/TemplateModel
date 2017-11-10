@@ -1,0 +1,103 @@
+2017-11-10 13:32:05,352 INFO  [Log] **************************************************************************************** 
+2017-11-10 13:32:05,352 INFO  [Log] **************************************************************************************** 
+2017-11-10 13:32:05,352 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC_006       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-10 13:32:05,352 INFO  [Log] **************************************************************************************** 
+2017-11-10 13:32:05,352 INFO  [Log] **************************************************************************************** 
+2017-11-10 13:32:08,332 INFO  [Log] Abre o browser Chrome 
+2017-11-10 13:32:18,108 INFO  [Log] Acessa a URL http://172.16.42.153:8080/push-services-web 
+2017-11-10 13:32:19,687 INFO  [Log] Informa o texto operador@scopus.com.br no campo txtbx_Usuario 
+2017-11-10 13:32:21,008 INFO  [Log] Informa o texto Scopus no campo txtbx_Senha 
+2017-11-10 13:32:26,275 INFO  [Log] Clica no elemento btn_Entrar e aguarda 5 segundos 
+2017-11-10 13:32:31,528 INFO  [Log] Clica no elemento icon_Menu e aguarda 5 segundos 
+2017-11-10 13:32:36,836 INFO  [Log] Clica no elemento icon_Aplicacoes e aguarda 5 segundos 
+2017-11-10 13:32:42,134 INFO  [Log] Clica no elemento icon_Menu e aguarda 5 segundos 
+2017-11-10 13:32:43,565 INFO  [Log] Informa o texto de Contas no campo txtbx_NomeApp 
+2017-11-10 13:32:44,828 INFO  [Log] Clica no elemento btn_BuscarApp 
+2017-11-10 13:32:50,312 INFO  [Log] Valida o resultado da consulta no grid 
+2017-11-10 13:32:51,536 INFO  [Log] Move o scroll ao elemento grd_Aplicacoes 
+2017-11-10 13:32:52,666 INFO  [Log] Move o scroll ao elemento txtbx_NomeApp 
+2017-11-10 13:32:53,989 INFO  [Log] Clica no elemento btn_LimparApp 
+2017-11-10 13:32:55,244 INFO  [Log] Clica no elemento chbx_HabilitadoApp 
+2017-11-10 13:32:56,447 INFO  [Log] Clica no elemento btn_BuscarApp 
+2017-11-10 13:33:00,848 INFO  [Log] Valida o resultado da consulta no grid 
+2017-11-10 13:33:02,086 INFO  [Log] Move o scroll ao elemento grd_Aplicacoes 
+2017-11-10 13:33:03,193 INFO  [Log] Move o scroll ao elemento txtbx_NomeApp 
+2017-11-10 13:33:04,459 INFO  [Log] Clica no elemento btn_LimparApp 
+2017-11-10 13:33:05,938 INFO  [Log] Informa o texto AIzaSyBU17O64nqLzJaDCp41JIkqQhzaIwqdPkI no campo txtbx_ChaveServidor 
+2017-11-10 13:33:07,200 INFO  [Log] Clica no elemento btn_BuscarApp 
+2017-11-10 13:33:12,610 INFO  [Log] Valida o resultado da consulta no grid 
+2017-11-10 13:33:13,840 INFO  [Log] Move o scroll ao elemento grd_Aplicacoes 
+2017-11-10 13:33:14,961 INFO  [Log] Move o scroll ao elemento txtbx_NomeApp 
+2017-11-10 13:33:16,227 INFO  [Log] Clica no elemento btn_LimparApp 
+2017-11-10 13:33:17,507 INFO  [Log] Informa o texto de Contas no campo txtbx_NomeApp 
+2017-11-10 13:33:19,023 INFO  [Log] Informa o texto AIzaSyBU17O64nqLzJaDCp41JIkqQhzaIwqdPkI no campo txtbx_ChaveServidor 
+2017-11-10 13:33:20,285 INFO  [Log] Clica no elemento btn_BuscarApp 
+2017-11-10 13:33:27,943 INFO  [Log] Valida o resultado da consulta no grid 
+2017-11-10 13:33:29,214 INFO  [Log] Move o scroll ao elemento grd_Aplicacoes 
+2017-11-10 13:33:34,303 INFO  [Log] Aguarda por 5 segundos 
+2017-11-10 13:33:35,408 INFO  [Log] Fecha o browser 
+2017-11-10 13:33:35,548 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-10 13:33:35,548 INFO  [Log] X 
+2017-11-10 13:33:35,548 INFO  [Log] X 
+2017-11-10 13:33:35,548 INFO  [Log] X 
+2017-11-10 13:33:35,548 INFO  [Log] X 
+2017-11-10 13:33:35,564 INFO  [Log] **************************************************************************************** 
+2017-11-10 13:33:35,564 INFO  [Log] **************************************************************************************** 
+2017-11-10 13:33:35,564 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC_007       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-10 13:33:35,564 INFO  [Log] **************************************************************************************** 
+2017-11-10 13:33:35,564 INFO  [Log] **************************************************************************************** 
+2017-11-10 13:33:37,592 INFO  [Log] Abre o browser Chrome 
+2017-11-10 13:33:45,747 INFO  [Log] Acessa a URL http://172.16.42.153:8080/push-services-web 
+2017-11-10 13:33:47,164 INFO  [Log] Informa o texto operador@scopus.com.br no campo txtbx_Usuario 
+2017-11-10 13:33:48,406 INFO  [Log] Informa o texto Scopus no campo txtbx_Senha 
+2017-11-10 13:33:53,683 INFO  [Log] Clica no elemento btn_Entrar e aguarda 5 segundos 
+2017-11-10 13:33:58,949 INFO  [Log] Clica no elemento icon_Menu e aguarda 5 segundos 
+2017-11-10 13:34:04,208 INFO  [Log] Clica no elemento icon_Aplicacoes e aguarda 5 segundos 
+2017-11-10 13:34:09,456 INFO  [Log] Clica no elemento icon_Menu e aguarda 5 segundos 
+2017-11-10 13:34:11,055 INFO  [Log] Informa o texto Nome Nova Aplicação11101334 no campo txtbx_NomeApp 
+2017-11-10 13:34:12,306 INFO  [Log] Clica no elemento chbx_HabilitadoApp 
+2017-11-10 13:34:13,716 INFO  [Log] Informa o texto ChavedoServidor123456 no campo txtbx_ChaveServidor 
+2017-11-10 13:34:15,937 INFO  [Log] Seleciona (upload) o arquivo C:\\Users\\pguirelli\\Downloads\\teste.p12 
+2017-11-10 13:34:17,218 INFO  [Log] Informa o texto Senha no campo txtbx_SenhaCertificado 
+2017-11-10 13:34:18,623 INFO  [Log] Informa o texto br.com.teste.nova.aplicacao no campo txtbx_PacoteApple 
+2017-11-10 13:34:19,888 INFO  [Log] Clica no elemento chbx_CertificadoProducao 
+2017-11-10 13:34:21,174 INFO  [Log] Clica no elemento btn_SalvarApp 
+2017-11-10 13:34:22,291 INFO  [Log] Valida o texto 'Operação enviada ao seu gestor para aprovação.' 
+2017-11-10 13:34:27,393 INFO  [Log] Aguarda por 5 segundos 
+2017-11-10 13:34:28,251 INFO  [Log] Fecha o browser 
+2017-11-10 13:34:28,392 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-10 13:34:28,392 INFO  [Log] X 
+2017-11-10 13:34:28,392 INFO  [Log] X 
+2017-11-10 13:34:28,392 INFO  [Log] X 
+2017-11-10 13:34:28,392 INFO  [Log] X 
+2017-11-10 13:34:28,423 INFO  [Log] **************************************************************************************** 
+2017-11-10 13:34:28,423 INFO  [Log] **************************************************************************************** 
+2017-11-10 13:34:28,423 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC_033       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-10 13:34:28,423 INFO  [Log] **************************************************************************************** 
+2017-11-10 13:34:28,423 INFO  [Log] **************************************************************************************** 
+2017-11-10 13:34:30,369 INFO  [Log] Abre o browser Chrome 
+2017-11-10 13:34:38,300 INFO  [Log] Acessa a URL http://172.16.42.153:8080/push-services-web 
+2017-11-10 13:34:39,753 INFO  [Log] Informa o texto operador@scopus.com.br no campo txtbx_Usuario 
+2017-11-10 13:34:41,026 INFO  [Log] Informa o texto Scopus no campo txtbx_Senha 
+2017-11-10 13:34:46,243 INFO  [Log] Clica no elemento btn_Entrar e aguarda 5 segundos 
+2017-11-10 13:34:51,510 INFO  [Log] Clica no elemento icon_Menu e aguarda 5 segundos 
+2017-11-10 13:34:56,780 INFO  [Log] Clica no elemento icon_EnviarMensagemPush e aguarda 5 segundos 
+2017-11-10 13:35:01,975 INFO  [Log] Clica no elemento icon_Menu e aguarda 5 segundos 
+2017-11-10 13:35:05,576 INFO  [Log] Seleciona o item 'Abertura de Contas' no combo 
+2017-11-10 13:35:07,055 INFO  [Log] Informa o texto Titulo da Mensagem no campo txtbx_TituloEnviarMsg 
+2017-11-10 13:35:08,300 INFO  [Log] Informa o texto IdNot123 no campo txtbx_IdNotifiEnviarMsg 
+2017-11-10 13:35:09,668 INFO  [Log] Informa o texto Teste Texto Mensagem por CPF no campo txtbx_MensagemEnviarMsg 
+2017-11-10 13:35:10,933 INFO  [Log] Clica no elemento rdo_CPFEnviarMsg 
+2017-11-10 13:35:12,238 INFO  [Log] Informa o texto 12345645645 no campo txtbx_CPFEnviarMsg 
+2017-11-10 13:35:13,494 INFO  [Log] Clica no elemento btn_ParametrosEnviarMsg 
+2017-11-10 13:35:14,870 INFO  [Log] Informa o texto Nome parâmetro no campo txtbx_NomeParamEnviarMsg 
+2017-11-10 13:35:16,235 INFO  [Log] Informa o texto Valor parâmetro no campo txtbx_ValorParamEnviarMsg 
+2017-11-10 13:35:17,511 INFO  [Log] Clica no elemento btn_EnviarMsg 
+2017-11-10 13:35:18,636 INFO  [Log] Valida o texto 'Mensagem enviada com sucesso.' 
+2017-11-10 13:35:23,762 INFO  [Log] Aguarda por 5 segundos 
+2017-11-10 13:35:24,691 INFO  [Log] Fecha o browser 
+2017-11-10 13:35:24,831 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-10 13:35:24,831 INFO  [Log] X 
+2017-11-10 13:35:24,831 INFO  [Log] X 
+2017-11-10 13:35:24,831 INFO  [Log] X 
+2017-11-10 13:35:24,831 INFO  [Log] X 
